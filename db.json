@@ -1,0 +1,221 @@
+{
+	"Trasnsactions":[
+    {
+        "TransactionID": "456789035",
+        "DateTime": "2024-03-02T10:45:00",
+        "TransactionAmount": 150.00,
+        "TransactionType": "Online Purchase",
+        "Account": {
+            "Number": "1234567891",
+            "Type": "Savings",
+            "Age": "5 years"
+        },
+        "Customer": {
+            "ID": "987654322",
+            "Profile": {
+                "Age": 30,
+                "Occupation": "Graphic Designer",
+                "IncomeLevel": 70000
+            },
+            "CreditScore": 680,
+            "GeographicalLocation": "Vancouver, Canada"
+        },
+        "TransactionLocation": "Vancouver, Canada",
+        "DeviceInformation": {
+            "DeviceType": "Laptop",
+            "OS": "Windows",
+            "AppVersion": "3.5.0"
+        },
+        "IPAddress": "192.168.1.16",
+        "BrowserInformation": "Google Chrome",
+        "PreviousTransactions": [
+            {"Amount": 60.00, "Description": "Bookstore Purchase"},
+            {"Amount": 20.00, "Description": "Coffee Shop"}
+        ],
+        "MerchantReputation": "Medium",
+        "PaymentMethod": "Credit Card",
+        "ExternalDataFlags": "None",
+        "BehavioralBiometrics": {
+            "TypingSpeed": "Faster than average",
+            "NavigationPatterns": "No unusual activity"
+        },
+        "MachineLearningFraudPredictionScore": 30,
+		"ScamReports": 2,
+		"ImmediateWithdrawalFrequency": 7
+    },
+    {
+        "TransactionID": "456789036",
+        "DateTime": "2024-03-03T14:20:00",
+        "TransactionAmount": 2500.00,
+        "TransactionType": "Wire Transfer",
+        "Account": {
+            "Number": "1234567892",
+            "Type": "Checking",
+            "Age": "1 year"
+        },
+        "Customer": {
+            "ID": "987654323",
+            "Profile": {
+                "Age": 55,
+                "Occupation": "Doctor",
+                "IncomeLevel": 120000
+            },
+            "CreditScore": 750,
+            "GeographicalLocation": "Calgary, Canada"
+        },
+        "TransactionLocation": "Toronto, Canada",
+        "DeviceInformation": {
+            "DeviceType": "Tablet",
+            "OS": "iOS",
+            "AppVersion": "6.0.0"
+        },
+        "IPAddress": "192.168.1.17",
+        "BrowserInformation": "Safari",
+        "PreviousTransactions": [
+            {"Amount": 100.00, "Description": "Pharmacy"},
+            {"Amount": 50.00, "Description": "Restaurant"}
+        ],
+        "MerchantReputation": "High",
+        "PaymentMethod": "Debit Card",
+        "ExternalDataFlags": "None",
+        "BehavioralBiometrics": {
+            "TypingSpeed": "Consistent",
+            "NavigationPatterns": "No unusual activity"
+        },
+        "MachineLearningFraudPredictionScore": 10,
+		"ScamReports": 1,
+		"ImmediateWithdrawalFrequency": 1
+    },
+    {
+  "TransactionID": "456789034",
+  "DateTime": "2024-03-01T15:30:00",
+  "TransactionAmount": 3500.00,
+  "TransactionType": "Wire Transfer",
+  "Account": {
+    "Number": "1234567890",
+    "Type": "Checking",
+    "Age": "3 years"
+  },
+  "Customer": {
+    "ID": "987654321",
+    "Profile": {
+      "Age": 45,
+      "Occupation": "Software Engineer",
+      "IncomeLevel": 80000
+    },
+    "CreditScore": 720,
+    "GeographicalLocation": "Toronto, Canada"
+  },
+  "TransactionLocation": "Montreal, Canada",
+  "DeviceInformation": {
+    "DeviceType": "Smartphone",
+    "OS": "Android",
+    "AppVersion": "5.2.1"
+  },
+  "IPAddress": "192.168.1.15",
+  "BrowserInformation": "N/A",
+  "PreviousTransactions": [
+    {"Amount": 40.00, "Description": "Grocery Store in Toronto"},
+    {"Amount": 15.00, "Description": "Online Purchase"}
+  ],
+  "MerchantReputation": "High",
+  "PaymentMethod": "Direct Bank Transfer",
+  "ExternalDataFlags": "None",
+  "BehavioralBiometrics": {
+    "TypingSpeed": "Consistent",
+    "NavigationPatterns": "No unusual activity"
+  },
+  "MachineLearningFraudPredictionScore": 30,
+	"ScamReports": 2,
+	"ImmediateWithdrawalFrequency": 7
+},
+{
+    "TransactionID": "456789037",
+    "DateTime": "2024-03-04T09:00:00",
+    "TransactionAmount": 1000.00,
+    "TransactionType": "Online Payment",
+    "Account": {
+        "Number": "1234567893",
+        "Type": "Joint Checking",
+        "Age": "2 years"
+    },
+    "Customer": {
+        "ID": "987654324",
+        "Profile": {
+            "Age": 38,
+            "Occupation": "Marketing Manager",
+            "IncomeLevel": 95000
+        },
+        "CreditScore": 690,
+        "GeographicalLocation": "Ottawa, Canada"
+    },
+    "TransactionLocation": "New York, USA",
+    "DeviceInformation": {
+        "DeviceType": "Desktop",
+        "OS": "MacOS",
+        "AppVersion": "7.3.2"
+    },
+    "IPAddress": "192.168.1.18",
+    "BrowserInformation": "Mozilla Firefox",
+    "PreviousTransactions": [
+        {"Amount": 200.00, "Description": "Electronics Store"},
+        {"Amount": 30.00, "Description": "Online Streaming Service"}
+    ],
+    "MerchantReputation": "High",
+    "PaymentMethod": "PayPal",
+    "ExternalDataFlags": "None",
+    "BehavioralBiometrics": {
+        "TypingSpeed": "Variable",
+        "NavigationPatterns": "No unusual activity"
+    },
+    "MachineLearningFraudPredictionScore": 80,
+	"ScamReports": 7,
+	"ImmediateWithdrawalFrequency": 9
+},
+
+{
+    "TransactionID": "456789038",
+    "DateTime": "2024-03-05T17:15:00",
+    "TransactionAmount": 500.00,
+    "TransactionType": "ATM Withdrawal",
+    "Account": {
+        "Number": "1234567894",
+        "Type": "Savings",
+        "Age": "6 months"
+    },
+    "Customer": {
+        "ID": "987654325",
+        "Profile": {
+            "Age": 27,
+            "Occupation": "Freelancer",
+            "IncomeLevel": 50000
+        },
+        "CreditScore": 710,
+        "GeographicalLocation": "Montreal, Canada"
+    },
+    "TransactionLocation": "Montreal, Canada",
+    "DeviceInformation": {
+        "DeviceType": "Smartphone",
+        "OS": "Android",
+        "AppVersion": "8.1.0"
+    },
+    "IPAddress": "192.168.1.19",
+    "BrowserInformation": "N/A",
+    "PreviousTransactions": [
+        {"Amount": 100.00, "Description": "Restaurant"},
+        {"Amount": 80.00, "Description": "Concert Ticket"}
+    ],
+    "MerchantReputation": "Medium",
+    "PaymentMethod": "Direct Bank Transfer",
+    "ExternalDataFlags": "None",
+    "BehavioralBiometrics": {
+        "TypingSpeed": "Consistent",
+        "NavigationPatterns": "Slight deviations"
+    },
+    "MachineLearningFraudPredictionScore": 40,
+	"ScamReports": 5,
+	"ImmediateWithdrawalFrequency": 7
+}
+
+]
+}
