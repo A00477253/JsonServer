@@ -1,27 +1,35 @@
-# AngularCrash
+#How to run the json server
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+I have a file called db.json 
+you can replace the json content that you are expecting from the backend with proper property name for example:
+Let us taken an example of Customer json 
 
-## Development server
+{
+  "**customers**": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "+1234567890",
+      "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "postal_code": "12345",
+        "country": "USA"
+      }
+    }
+  ]
+}
+The api will be exposed as 
+**http://localhost:3000/customers**
+You can use all the api endpoints such as 
+GET,POST,PUT,DELETE 
+all the changes will happen locally in the file 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The command to start the server is 
+**json-server --watch db.json**
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+here ** db.json** is the json file we need to add the json data that we need
+  
+   
